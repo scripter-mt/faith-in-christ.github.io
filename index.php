@@ -25,7 +25,7 @@
         </p>
         </div>
       <div class="boxes">
-                <a href="audiobible/audiobible.html">
+                <a href="audiobible/audiobible.php">
                 <div class="box">
 
                 <p>Audio Bible</p>
