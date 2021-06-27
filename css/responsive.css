@@ -1,0 +1,16 @@
+@media only screen and (max-width:800px) {
+  .boxes
+  {
+    flex-direction: column;
+  }
+  .background{
+  background: rgba(0, 0, 0, 0.7) url(../cross.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+  }
+  .box{
+    width: auto;
+    height: 25%;
+  }
+}

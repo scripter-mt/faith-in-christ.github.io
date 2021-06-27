@@ -1,0 +1,63 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+
+
+
+.background{
+background: rgba(0, 0, 0, 0.7) url(../cross.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+height: 100vh;
+}
+.center_contain{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: auto;
+  text-align: left;
+}
+.center_contain h1
+{
+  text-align: center;
+  display: block;
+}
+.boxes
+{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 40px;
+  font-size: 25px;
+
+}
+
+
+
+.box span
+{
+font-style: italic;
+font-size: 16px;
+}
+
+.box:hover{
+  background-color: gray;
+  animation:
+}
+a
+{
+  border-style: outset;
+  border-width: 2px;
+  text-align: center;
+  width: 25%;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+
+}

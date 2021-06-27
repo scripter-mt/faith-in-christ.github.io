@@ -1,0 +1,15 @@
+.background
+{
+  color: white;
+}
+.book-names
+{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+}
+.book-names a{
+  text-decoration: none;
+  border: solid;
+}
