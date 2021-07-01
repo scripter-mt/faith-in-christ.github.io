@@ -60,10 +60,31 @@
                 </a>
 
       </div>
-
-
 </div>
 
+//this is for testing class and object
+<?php
+class fruit()
+{
+public $name;
+public $color;
+function __constructor("$name")
+{
+  $this->name=$name;
+}
+function get_fruit()
+{
+  return $this->name;
+}
+
+$apple= new fruit("Apple");
+echo "Fruit name  is {$this ->name}";
+echo $apple->get_fruit();
+
+}
+ ?>
+
+</object>
 
 
 
